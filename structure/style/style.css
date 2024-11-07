@@ -2,11 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-
-#wrapper{
-    min-height: 100%;
-    position: relative;
+    font-family: Apple Chancery, cursive;
 }
 
 div.body-content{
@@ -14,68 +10,26 @@ div.body-content{
     padding-bottom: 100px;
 }
 
-.footer{
-    position: absolute;
-}
-
-.footer-backgorund {
+footer{
     background-color: black;
     width: 100%;
     height: 100px;
+    position: absolute;
     bottom: 0;
     left: 0;
 }
 
 #Home {
-    background-color: #DBDBDB;
+    background-color: #FFFFFF;
     color: #242424;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
 }
 
-.quebra15px {
-    width: 15px;
-}
-
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
-.btn-scroll-top {
-    position: fixed;
-    right: 2rem;
-    bottom: 2rem;
-    display: grid;
-    place-items: center;
-    opacity: 0;
-    cursor: pointer;
-    border: 0;
-    background-color: none;
-    pointer-events: none;
-    transition: opacity 0.5s ease;
-    z-index: 10;
-}
-
-.show-btn-scroll-top {
-    opacity: 1;
-    pointer-events: all;
-}
-
-
-
-
-.fonte-cor-branco:hover {
-    color: #242424;
-}
-
-.titulo-azul {
-    color: #082A71;
+#wrapper{
+    min-height: 100%;
+    position: relative;
 }
 
 .subtexto-preto {
@@ -83,29 +37,8 @@ div.body-content{
     font-size: 18px;
 }
 
-.completar-bloco {
-    height: 200px;
-    width: 100%;
-}
-
-.completar-bloco-sobre {
-    height: 325px;
-    width: 100%;
-}
-
-.link-image {
-    height: 30px;
-    width: 30px;
-    display:inline-block
-}
-
 .footer-p {
     margin-bottom: 10px;
-}
-
-.espacamento-web {
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 .estilo-linha {
@@ -116,17 +49,17 @@ div.body-content{
     margin-bottom: 10px;
 }
 
-#footer {
-    background-color: #000000;
-}
-
 .cor-footer {
     color: #FFFFFF;
 }
 
+.fundo-azul {
+    background-color: #007BFF;
+}
+
 @media only screen and (max-width: 1746px) {
     #Home {
-        background-color: #DBDBDB;
+        background-color: #FFFFFF;
         color: #242424;
         margin-left: 0%;
         margin-right: 0%;
